@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dev:
+    build:
+      context: .      
+    image: 'ianre657/cuda8gl:latetest'
+    command: bash -c 'echo this is a base img'
